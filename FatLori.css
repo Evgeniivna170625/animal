@@ -1,6 +1,11 @@
 body {
     font-family: sans-serif;
 }
+.builder:hover {
+    margin: 100px;
+    transform: scale(3);
+    transition: 10s linear;
+}
 
 h1 {
     text-align: center;
@@ -24,3 +29,4 @@ a {
 a:hover {
     box-shadow: 3px 5px 10px 0 #42fff9;
 }
+
